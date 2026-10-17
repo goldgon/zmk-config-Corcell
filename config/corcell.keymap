@@ -13,9 +13,12 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp Q  &kp W  &kp E  &kp R  &kp T  &kp Y  &kp U  &lt 5 I  &kp O  &kp P  &kp BSPC
-&kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G  &kp H  &kp J  &kp K  &kp L  &kp COLON  &kp RET
+&kp ESC  &kp Q  &kp W  &kp E  &kp R  &kp T                                       &kp Y  &kp U  &lt 5 I  &kp O  &kp P  &kp BSPC
+
+&kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G                                       &kp H  &kp J  &kp K  &kp L  &kp COLON  &kp RET
+
 &kp LSHFT  &kp Z  &kp X  &kp C  &kp V  &kp B  &kp N9  &kp N8  &kp N  &kp M  &kp COMMA  &kp DOT  &kp UP  &kp QMARK
+
 &kp LCTRL  &kp LGUI  &kp LALT  &mo 1  &mo 2  &kp SPACE  &kp SPACE  &mo 3  &lt 5 A  &kp LEFT  &kp DOWN  &kp RIGHT
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
