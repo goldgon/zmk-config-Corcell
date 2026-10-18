@@ -62,7 +62,7 @@
 
 &none          &none            &none      &none      &none         &kp LC(RG(LEFT))                                                           &kp LG(RC(RIGHT))  &none   &none       &none &none &none
 >;
-            sensor-bindings = <&scroll_left_right &scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_1 {
@@ -73,7 +73,7 @@
 &none  &kp JP_COLON  &none      &none      &none      &none                                   &none      &none                                  &kp DELETE     &none      &none       &none       &mt LCTRL PERIOD &none
 &trans &trans        &trans     &trans     &trans     &trans                                                                                    &trans        &none        &none      &trans        &trans         &trans
             >;
-            sensor-bindings = <&scroll_left_right &scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_2 {
@@ -84,7 +84,7 @@
 &none   &kp JP_TILDE &kp JP_LBRC    &kp JP_AMPS    &kp JP_RBRC  &none                        &none       &none                                         &kp JP_YEN    &none        &kp JP_SQT        &kp JP_PIPE   &none        &none
 &trans  &trans       &trans         &trans         &trans      &trans                                                                                  &trans        &trans       &trans            &trans        &trans       &trans
             >;
-            sensor-bindings = <&scroll_left_right &scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_3 {
@@ -95,7 +95,7 @@
 &none    &none        &kp END    &none      &kp PAGE_DOWN    &none                        &none          &none                                       &kp N0         &kp N1          &kp N2        &kp N3         &mt LCTRL PERIOD &none
 &trans   &trans       &trans     &trans     &trans           &trans                                                                                  &trans         &trans          &trans        &trans         &trans           &trans
             >;
-            sensor-bindings = <&scroll_left_right &scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         layer_4 {
@@ -106,7 +106,7 @@
 &none &none    &none     &none   &none   &none                                           &none          &none                                       &none   &none   &none   &none        &none      &none
 &trans &trans  &trans    &trans  &trans  &trans                                                                                                     &trans  &trans  &trans  &trans       &trans     &trans
             >;
-            sensor-bindings = <&scroll_left_right &scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
 
@@ -119,7 +119,7 @@
 &none  &trans  &msc SCRL_LEFT     &trans              &msc SCRL_DOWN     &trans              &none          &none                                     &none   &none  &none  &none  &none     &none
 &trans &trans  &trans             &trans              &trans             &trans                                                                     &trans  &trans &trans &trans &trans    &trans
             >;
-            sensor-bindings = <&scroll_left_right &scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
 
@@ -133,7 +133,7 @@
 &none  &trans  &msc SCRL_LEFT     &trans              &msc SCRL_DOWN     &trans              &none          &none                                    &none   &none  &none  &none  &none     &none
 &trans &trans  &trans             &trans              &trans             &trans                                                                     &trans  &trans &trans &trans &trans    &trans
             >;
-            sensor-bindings = <&scroll_left_right &scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
 
@@ -146,7 +146,7 @@
 &none  &trans  &msc SCRL_LEFT     &trans              &msc SCRL_DOWN     &trans                  &none          &none                               &none   &none  &none  &none  &none     &none
 &trans &trans  &trans             &trans              &trans             &trans                                                                     &trans  &trans &trans &trans &trans    &trans
             >;
-            sensor-bindings = <&scroll_left_right &scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
 
@@ -158,7 +158,7 @@
 &none  &trans  &msc SCRL_LEFT     &trans              &msc SCRL_DOWN     &trans                 &none          &none                              &none   &none  &none  &none  &none     &none
 &trans &trans  &trans             &trans              &trans             &trans                                                                     &trans  &trans &trans &trans &trans    &trans
             >;
-            sensor-bindings = <&scroll_left_right &scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
 
