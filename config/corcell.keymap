@@ -45,7 +45,7 @@
 
         default_layer {
             bindings = <
-&kp ESC  &kp Q  &kp W  &kp E  &kp R  &kp T                                       &kp Y  &kp U  &lt 5 I  &kp O  &kp P  &kp BSPC
+&kp ESC  &kp ESCAPE      &lt 5 Q    &lt 6 E    &lt 7 U       &lt 8 P                                     &lt 8 D        &lt 7 T       &lt 6 R     &lt 5 W     &mkp MB1  &mkp MB1
 
 &kp TAB  &kp A  &kp S  &kp D  &kp F  &kp G                                       &kp H  &kp J  &kp K  &kp L  &kp COLON  &kp RET
 
