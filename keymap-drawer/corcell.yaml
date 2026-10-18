@@ -39,18 +39,18 @@ layers:
   - {t: J, h: RGUI}
   - {t: Z, h: '4'}
   - {t: Z, h: '4'}
-  - ESC
-  - LCTRL
-  - LWIN
-  - LALT
-  - {t: SPACE, h: LSHFT}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Ctl+Gui+LEFT
   - Gui+Ctl+RIGHT
-  - {t: ENTER, h: '3'}
-  - JP QUOTE
-  - LEFT
-  - DOWN
-  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
+  - none
   '1':
   - ''
   - '0x38'
