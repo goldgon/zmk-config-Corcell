@@ -459,3 +459,41 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [2, 4]
+  k: '`'
+  l: [default]
+- p: [6, 10]
+  k: Gui+2
+  l: [default]
+- p: [6, 11, 44, 49]
+  k: '&bootloader'
+- p: [0, 5, 38, 43]
+  k: '&bootloader'
+- p: [0, 12, 24, 38]
+  k: BT CLR ALL
+  l: [default]
+- p: [6, 18, 32, 44]
+  k: {t: BT, h: '0'}
+  l: [default]
+- p: [7, 19, 33, 45]
+  k: {t: BT, h: '1'}
+  l: [default]
+- p: [8, 20, 34, 46]
+  k: {t: BT, h: '2'}
+  l: [default]
+- p: [16, 17]
+  k: MUTE
+  l: [default]
+- p: [4, 5]
+  k: VOL UP
+  l: [default]
+- p: [28, 29]
+  k: VOL DN
+  l: [default]
+- p: [26, 28]
+  k: PSCRN
+  l: [default]
+- p: [13, 16]
+  k: SPACE
+  l: [default]

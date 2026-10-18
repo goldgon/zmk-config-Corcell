@@ -471,6 +471,93 @@ text { fill: #000000; }
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key side"/>
 <rect rx="8" ry="8" x="-21" y="-21" width="42" height="42" class="key"/>
 </g>
+<g class="combo combopos-0">
+<path d="M196,42 l-37,0" class="combo"/>
+<path d="M196,42 l37,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="29" width="28" height="26" class="combo"/>
+<text x="196" y="42" class="combo tap">`</text>
+</g>
+<g class="combo combopos-1">
+<path d="M700,56 l-93,0" class="combo"/>
+<path d="M700,56 l93,0" class="combo"/>
+<rect rx="6" ry="6" x="686" y="43" width="28" height="26" class="combo"/>
+<text x="700" y="56" class="combo tap">Gui+2</text>
+</g>
+<g class="combo combopos-2">
+<path d="M714,150 l-111,-83" class="combo"/>
+<path d="M714,150 l138,-85" class="combo"/>
+<path d="M714,150 l-167,105" class="combo"/>
+<path d="M714,150 l137,66" class="combo"/>
+<rect rx="6" ry="6" x="700" y="137" width="28" height="26" class="combo"/>
+<text x="714" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-3">
+<path d="M182,150 l-138,-85" class="combo"/>
+<path d="M182,150 l111,-83" class="combo"/>
+<path d="M182,150 l-137,66" class="combo"/>
+<path d="M182,150 l167,105" class="combo"/>
+<rect rx="6" ry="6" x="168" y="137" width="28" height="26" class="combo"/>
+<text x="182" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-4">
+<path d="M28,140 l0,-65" class="combo"/>
+<path d="M28,140 l0,65" class="combo"/>
+<rect rx="6" ry="6" x="14" y="127" width="28" height="26" class="combo"/>
+<text x="28" y="140" class="combo tap">
+<tspan x="28" dy="-0.6em">BT</tspan><tspan x="28" dy="1.2em">…</tspan>
+</text>
+</g>
+<g class="combo combopos-5">
+<path d="M574,150 l12,-76" class="combo"/>
+<path d="M574,150 l-36,98" class="combo"/>
+<rect rx="6" ry="6" x="560" y="137" width="28" height="26" class="combo"/>
+<text x="574" y="150" class="combo tap">BT</text>
+<text x="574" y="161" class="combo hold">0</text>
+</g>
+<g class="combo combopos-6">
+<path d="M634,133 l8,-72" class="combo"/>
+<path d="M634,133 l-25,86" class="combo"/>
+<rect rx="6" ry="6" x="620" y="120" width="28" height="26" class="combo"/>
+<text x="634" y="133" class="combo tap">BT</text>
+<a href="#x_x">
+<text x="634" y="144" class="combo hold layer-activator">1</text>
+</a></g>
+<g class="combo combopos-7">
+<path d="M694,121 l4,-74" class="combo"/>
+<path d="M694,121 l-14,92" class="combo"/>
+<rect rx="6" ry="6" x="680" y="108" width="28" height="26" class="combo"/>
+<text x="694" y="121" class="combo tap">BT</text>
+<a href="#x_x">
+<text x="694" y="132" class="combo hold layer-activator">2</text>
+</a></g>
+<g class="combo combopos-8">
+<rect rx="6" ry="6" x="266" y="92" width="28" height="26" class="combo"/>
+<text x="280" y="105" class="combo tap">MUTE</text>
+</g>
+<g class="combo combopos-9">
+<rect rx="6" ry="6" x="266" y="36" width="28" height="26" class="combo"/>
+<text x="280" y="49" class="combo tap">
+<tspan x="280" dy="-0.6em">VOL</tspan><tspan x="280" dy="1.2em">UP</tspan>
+</text>
+</g>
+<g class="combo combopos-10">
+<rect rx="6" ry="6" x="266" y="148" width="28" height="26" class="combo"/>
+<text x="280" y="161" class="combo tap">
+<tspan x="280" dy="-0.6em">VOL</tspan><tspan x="280" dy="1.2em">DN</tspan>
+</text>
+</g>
+<g class="combo combopos-11">
+<path d="M196,154 l-37,0" class="combo"/>
+<path d="M196,154 l37,0" class="combo"/>
+<rect rx="6" ry="6" x="182" y="141" width="28" height="26" class="combo"/>
+<text x="196" y="154" class="combo tap">PSCRN</text>
+</g>
+<g class="combo combopos-12">
+<path d="M168,105 l-65,5" class="combo"/>
+<path d="M168,105 l65,-5" class="combo"/>
+<rect rx="6" ry="6" x="154" y="92" width="28" height="26" class="combo"/>
+<text x="168" y="105" class="combo tap">SPACE</text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 358)" class="layer-1">
@@ -708,6 +795,22 @@ text { fill: #000000; }
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key trans side"/>
 <rect rx="8" ry="8" x="-21" y="-21" width="42" height="42" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<path d="M714,150 l-111,-83" class="combo"/>
+<path d="M714,150 l138,-85" class="combo"/>
+<path d="M714,150 l-167,105" class="combo"/>
+<path d="M714,150 l137,66" class="combo"/>
+<rect rx="6" ry="6" x="700" y="137" width="28" height="26" class="combo"/>
+<text x="714" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,150 l-138,-85" class="combo"/>
+<path d="M182,150 l111,-83" class="combo"/>
+<path d="M182,150 l-137,66" class="combo"/>
+<path d="M182,150 l167,105" class="combo"/>
+<rect rx="6" ry="6" x="168" y="137" width="28" height="26" class="combo"/>
+<text x="182" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
 </g>
 </g>
 </g>
@@ -959,6 +1062,22 @@ text { fill: #000000; }
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key trans side"/>
 <rect rx="8" ry="8" x="-21" y="-21" width="42" height="42" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<path d="M714,150 l-111,-83" class="combo"/>
+<path d="M714,150 l138,-85" class="combo"/>
+<path d="M714,150 l-167,105" class="combo"/>
+<path d="M714,150 l137,66" class="combo"/>
+<rect rx="6" ry="6" x="700" y="137" width="28" height="26" class="combo"/>
+<text x="714" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,150 l-138,-85" class="combo"/>
+<path d="M182,150 l111,-83" class="combo"/>
+<path d="M182,150 l-137,66" class="combo"/>
+<path d="M182,150 l167,105" class="combo"/>
+<rect rx="6" ry="6" x="168" y="137" width="28" height="26" class="combo"/>
+<text x="182" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
 </g>
 </g>
 </g>
@@ -1216,6 +1335,22 @@ text { fill: #000000; }
 <rect rx="8" ry="8" x="-21" y="-21" width="42" height="42" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<path d="M714,150 l-111,-83" class="combo"/>
+<path d="M714,150 l138,-85" class="combo"/>
+<path d="M714,150 l-167,105" class="combo"/>
+<path d="M714,150 l137,66" class="combo"/>
+<rect rx="6" ry="6" x="700" y="137" width="28" height="26" class="combo"/>
+<text x="714" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,150 l-138,-85" class="combo"/>
+<path d="M182,150 l111,-83" class="combo"/>
+<path d="M182,150 l-137,66" class="combo"/>
+<path d="M182,150 l167,105" class="combo"/>
+<rect rx="6" ry="6" x="168" y="137" width="28" height="26" class="combo"/>
+<text x="182" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 1434)" class="layer-4">
@@ -1445,6 +1580,22 @@ text { fill: #000000; }
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key trans side"/>
 <rect rx="8" ry="8" x="-21" y="-21" width="42" height="42" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<path d="M714,150 l-111,-83" class="combo"/>
+<path d="M714,150 l138,-85" class="combo"/>
+<path d="M714,150 l-167,105" class="combo"/>
+<path d="M714,150 l137,66" class="combo"/>
+<rect rx="6" ry="6" x="700" y="137" width="28" height="26" class="combo"/>
+<text x="714" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,150 l-138,-85" class="combo"/>
+<path d="M182,150 l111,-83" class="combo"/>
+<path d="M182,150 l-137,66" class="combo"/>
+<path d="M182,150 l167,105" class="combo"/>
+<rect rx="6" ry="6" x="168" y="137" width="28" height="26" class="combo"/>
+<text x="182" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
 </g>
 </g>
 </g>
@@ -1693,6 +1844,22 @@ text { fill: #000000; }
 <rect rx="8" ry="8" x="-21" y="-21" width="42" height="42" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<path d="M714,150 l-111,-83" class="combo"/>
+<path d="M714,150 l138,-85" class="combo"/>
+<path d="M714,150 l-167,105" class="combo"/>
+<path d="M714,150 l137,66" class="combo"/>
+<rect rx="6" ry="6" x="700" y="137" width="28" height="26" class="combo"/>
+<text x="714" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,150 l-138,-85" class="combo"/>
+<path d="M182,150 l111,-83" class="combo"/>
+<path d="M182,150 l-137,66" class="combo"/>
+<path d="M182,150 l167,105" class="combo"/>
+<rect rx="6" ry="6" x="168" y="137" width="28" height="26" class="combo"/>
+<text x="182" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2151)" class="layer-6">
@@ -1939,6 +2106,22 @@ text { fill: #000000; }
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key trans side"/>
 <rect rx="8" ry="8" x="-21" y="-21" width="42" height="42" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<path d="M714,150 l-111,-83" class="combo"/>
+<path d="M714,150 l138,-85" class="combo"/>
+<path d="M714,150 l-167,105" class="combo"/>
+<path d="M714,150 l137,66" class="combo"/>
+<rect rx="6" ry="6" x="700" y="137" width="28" height="26" class="combo"/>
+<text x="714" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,150 l-138,-85" class="combo"/>
+<path d="M182,150 l111,-83" class="combo"/>
+<path d="M182,150 l-137,66" class="combo"/>
+<path d="M182,150 l167,105" class="combo"/>
+<rect rx="6" ry="6" x="168" y="137" width="28" height="26" class="combo"/>
+<text x="182" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
 </g>
 </g>
 </g>
@@ -2187,6 +2370,22 @@ text { fill: #000000; }
 <rect rx="8" ry="8" x="-21" y="-21" width="42" height="42" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
+<g class="combo combopos-0">
+<path d="M714,150 l-111,-83" class="combo"/>
+<path d="M714,150 l138,-85" class="combo"/>
+<path d="M714,150 l-167,105" class="combo"/>
+<path d="M714,150 l137,66" class="combo"/>
+<rect rx="6" ry="6" x="700" y="137" width="28" height="26" class="combo"/>
+<text x="714" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,150 l-138,-85" class="combo"/>
+<path d="M182,150 l111,-83" class="combo"/>
+<path d="M182,150 l-137,66" class="combo"/>
+<path d="M182,150 l167,105" class="combo"/>
+<rect rx="6" ry="6" x="168" y="137" width="28" height="26" class="combo"/>
+<text x="182" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
 </g>
 </g>
 <g transform="translate(30, 2867)" class="layer-8">
@@ -2433,6 +2632,22 @@ text { fill: #000000; }
 <rect rx="6" ry="6" x="-27" y="-27" width="54" height="54" class="key trans side"/>
 <rect rx="8" ry="8" x="-21" y="-21" width="42" height="42" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g class="combo combopos-0">
+<path d="M714,150 l-111,-83" class="combo"/>
+<path d="M714,150 l138,-85" class="combo"/>
+<path d="M714,150 l-167,105" class="combo"/>
+<path d="M714,150 l137,66" class="combo"/>
+<rect rx="6" ry="6" x="700" y="137" width="28" height="26" class="combo"/>
+<text x="714" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
+</g>
+<g class="combo combopos-1">
+<path d="M182,150 l-138,-85" class="combo"/>
+<path d="M182,150 l111,-83" class="combo"/>
+<path d="M182,150 l-137,66" class="combo"/>
+<path d="M182,150 l167,105" class="combo"/>
+<rect rx="6" ry="6" x="168" y="137" width="28" height="26" class="combo"/>
+<text x="182" y="150" class="combo tap"><tspan style="font-size: 64%">&amp;bootloader</tspan></text>
 </g>
 </g>
 </g>
